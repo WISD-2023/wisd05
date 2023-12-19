@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            You are now in dd.d2.
+            You are now in dd.d1.
         </h2>
     </x-slot>
 
