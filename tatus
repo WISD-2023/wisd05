@@ -1,0 +1,31 @@
+[1mdiff --git a/routes/web.php b/routes/web.php[m
+[1mindex 8d24bb7..fcafff9 100644[m
+[1m--- a/routes/web.php[m
+[1m+++ b/routes/web.php[m
+[36m@@ -33,6 +33,26 @@[m
+     return view('bb.b2');[m
+ });[m
+ [m
+[32m+[m
+[32m+[m[32mRoute::get('/cc/c1', function () {[m
+[32m+[m[32m    return view('cc.c1');[m
+[32m+[m[32m});[m
+[32m+[m
+[32m+[m[32mRoute::get('/cc/c2', function () {[m
+[32m+[m[32m    return view('cc.c2');[m
+[32m+[m[32m});[m
+[32m+[m
+[32m+[m
+[32m+[m[32mRoute::get('/dd/d1', function () {[m
+[32m+[m[32m    return view('dd.d1');[m
+[32m+[m[32m});[m
+[32m+[m
+[32m+[m[32mRoute::get('/dd/d2', function () {[m
+[32m+[m[32m    return view('dd.d2');[m
+[32m+[m[32m});[m
+[32m+[m
+[32m+[m
+[32m+[m
+ Route::middleware([[m
+     'auth:sanctum',[m
+     config('jetstream.auth_session'),[m
